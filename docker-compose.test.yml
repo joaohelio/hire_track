@@ -1,0 +1,5 @@
+services:
+  db:
+    env_file: .env.test
+  app:
+    env_file: .env.test
